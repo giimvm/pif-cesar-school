@@ -72,3 +72,42 @@ Questão 09:
 Questão 10:
 
     Alternativa b) -> A linguagem C é case sensitive, portanto diferencia letras maiúsculas de minúsculas. Assim, os identificadores peso, Peso e PESO são considerados diferentes e podem representar variáveis distintas na memória.
+
+Questão 11:
+
+    Constante  | Classificação                   | Tipo de Base em C
+    \r         | sequência de escape             | char
+    2130       | Inteira decimal                 | int
+    -123       | inteira decimal                 | int
+    33.28      | ponto flutuante                 | double
+    0XFA       | inteira hexadecimal             | int
+    0101       | inteira octal                   | int
+    2.0e30     | ponto flutuante                 | double
+    \xDC       | sequência de escape hexadecimal | char
+    '\"'       | sequência de escape             | char
+    '\\'       | sequência de escape             | char
+    'F'        | caractere                       | char
+    0          | inteira decimal                 | int
+    '\0'       | sequência de escape             | char
+    "F"        | constante string                | String
+    -4567.89   | ponto flutuante                 | double
+
+
+Questão 12:
+
+    a. correto -> int é um tipo válido e a é o nome da variável.
+    b. correto -> float é um tipo válido para números de ponto flutuante.
+    c. incorreto -> double e float são especificadores de tipo de ponto flutuante que não podem    ser combinados dessa maneira.
+    d. correto -> unsigned pode ser usado com tipos inteiros, incluindo char.
+    e. correto -> o int é omitido, mas equivale a unsigned int e.
+    f. incorreto -> long não pode ser usado com float.
+    g. correto -> o int também é omitido nesse caso, equivale a long int g.
+    h. correto -> long double é um tipo válido para números de ponto flutuante com maior precisão que float.
+
+Questão 13:
+
+    c) São arquivos de texto ASCII padrão contendo protótipos de funções, definições de constantes, macros e tipos.
+
+Questão 14:
+
+    a) Instruir o compilador a carregar as definições das funções da biblioteca padrão antes de compilar o código-fonte.
