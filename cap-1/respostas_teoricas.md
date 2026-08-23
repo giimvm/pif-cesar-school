@@ -111,3 +111,23 @@ Questão 13:
 Questão 14:
 
     a) Instruir o compilador a carregar as definições das funções da biblioteca padrão antes de compilar o código-fonte.
+
+Questão 15:
+
+    c) Uma diretiva especial para o pré-processador C, executada antes da compilação.
+
+Questão 16:
+
+    c) Pré-processador (fase do compilador que altera o programa-fonte antes da compilação propriamente dita).
+
+Questão 17:
+
+    Respostas corretas:
+    a) printf ( "Primeiro programa" );
+    b) printf( "Primeiro programa" );
+    c) printf("Primeiro programa");
+
+    Resposta incorreta:
+    d) printf "Primeiro programa" ;
+
+    Os espaços e quebras de linha geralmente são flexíveis. Por isso, apenas a alternativa D está errada, já que uma função precisa ter seus argumentos entre parênteses ().
